@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.5.3",
+    "jquery": "^3.5.1",
+    "normalize.css": "^8.0.1"
+  },
+  "name": "tz-1",
+  "version": "1.0.0",
+  "description": "TZ-1 ",
+  "main": "index.js",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "node-sass": "^5.0.0",
+    "webpack": "^5.10.1",
+    "webpack-cli": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --output-style compressed -o dist/css src/scss",
+    "build": "webpack --output dist/bundle.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YevgeniiKhiletskyi/javascript.github.io.git"
+  },
+  "author": "Yevgenii",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YevgeniiKhiletskyi/javascript.github.io/issues"
+  },
+  "homepage": "https://github.com/YevgeniiKhiletskyi/javascript.github.io#readme"
+}
